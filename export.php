@@ -1,6 +1,6 @@
 <?php
 // Connect to the MySQL database
-$conn = mysqli_connect('localhost', 'sans', 'passtheSANSBeta', 'SANSINDEX');
+$conn = mysqli_connect('localhost', 'sans', '', 'SANSINDEX');
 
 // Retrieve the required data from the database
 $result = mysqli_query($conn, "SELECT * FROM SEC275 ORDER BY Keywords");
